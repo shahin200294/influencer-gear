@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.poppins,
+.inter,
+.roboto {
+    font-family: "Inter", "Roboto", "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.navber {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+
+}
+
+.navber h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* .navber ul .menu-logo{
+    display: flex;
+} */
+
+.navber ul {
+    display: flex;
+    list-style: none;
+    gap: 34px;
+}
+
+.navber ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.journey-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 133px;
+
+}
+
+.journey-contant {
+    width: 580;
+
+}
+
+.journey-contant h2 {
+    font-size: 52px;
+    /* line-height: px; */
+    color: #3A3A3A;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.journey-contant p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: auto;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+
+.btn {
+    background-color: #E02C6D;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+.journey-img {
+    background-image: url(../images/Circle\ design.svg);
+    width: 440;
+}
+
+/* sponsor section */
+.sponsor-section {
+    max-width: 1110;
+    height: 110px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #fff;
+    /* background-color: #AAAAAA; */
+    box-shadow: 0, 0, 40, rgba(0, 0, 0, 0.15);
+
+}
+
+.sponsor-logo {
+    width: 986px;
+    margin: 110px;
+    padding: 36px 61px;
+    gap: 60px;
+    letter-spacing: 50px;
+    /* box-shadow: 0, 0, 40, rgba(0, 0, 0, 0.15); */
+
+}
