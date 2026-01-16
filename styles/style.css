@@ -111,7 +111,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    width: 1040px;
+    max-width: 1040px;
     margin-top: 160px;
     text-align: center;
     justify-content: center;
@@ -155,7 +155,7 @@ button{
     gap: 133px;
     margin-top: 200px;
     align-items: center;
-    width: 1110px;
+    /* width: 1110px; */
     margin-bottom: 100px;
 
 }
@@ -165,7 +165,7 @@ button{
 .features-container h3{
     color: #0A0826;
     font-size: 38px;
-    font-weight: 600;
+    font-weight: 600px;
 }
 .features-container{
     font-size: 16px;
@@ -173,7 +173,39 @@ button{
     font-weight: 600;
     color: #6C6C6C;
 }
+/* footer section */
+.footer{
+    background-color: #000000;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0;
 
-.hide{
-    display: none;
 }
+.footer-main{
+    height: 140px;
+}
+.footer-main h4{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600px;
+
+}
+small{
+    color: #D9DBE1;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+.social-icon a i{
+    color: #ffffff;
+    margin-top: 10px;
+    gap: 16px;
+}
+.social-icon{
+    letter-spacing: 16px;
+}
+
+/* .hide{
+    display: none;
+} */
